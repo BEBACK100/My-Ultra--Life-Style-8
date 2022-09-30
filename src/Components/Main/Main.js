@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Cards from '../Cards/Cards';
+import Sidebar from '../Sidebar/Sidebar';
 import './Main.css'
 const Main = () => {
 
@@ -14,7 +15,7 @@ const Main = () => {
 
     }, [])
     const handletocard = (card) => {
-        console.log(card)
+
         const totalwork = [...work, card]
         setWork(totalwork)
 
@@ -22,7 +23,7 @@ const Main = () => {
 
     return (
         <div className='main-container'>
-            <div className='display-container pt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 flex pt-4 bg-yellow-100'>
+            <div className='display-container pt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 flex pt-4 bg-yellow-100 p-3'>
                 {
                     cards.map(card => <Cards
                         key={card.id}
@@ -32,8 +33,8 @@ const Main = () => {
                 }
             </div>
             <div className='profile-container bg-amber-50'>
-                <h1 className='text-3xl pt-5'>Calculatin section</h1>
-                <p>Total Work:{work.length}</p>
+
+                <Sidebar work={work}></Sidebar>
             </div>
 
         </div>

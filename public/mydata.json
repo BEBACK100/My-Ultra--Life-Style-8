@@ -3,42 +3,42 @@
         "id": 232301,
         "name": "Reading",
         "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTTV65XVE7wtRjE3sKzr-iDGzyqhaKJAgHAvLwbabB8g&s",
-        "duration": "120m",
+        "duration": 90,
         "descripation": "i reading newspaper erverday"
     },
     {
         "id": 232302,
         "name": "Sleeping",
         "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp1h7ONpsBHQQ-JLE2zgV0b74UyKTwp9UGt0FuIHFdhQ&s",
-        "duration": "120m",
+        "duration": 80,
         "descripation": "i reading newspaper erverday"
     },
     {
         "id": 232303,
         "name": "Walking",
         "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVoRmkZP2CgA5xWmUrRyjXWUgCBYeA4UR0U6j0fKDsMQ&s",
-        "duration": "120m",
+        "duration": 20,
         "descripation": "i reading newspaper erverday"
     },
     {
         "id": 232304,
         "name": "Coding",
         "Image": "https://media.istockphoto.com/photos/closeup-focus-on-persons-hands-typing-on-the-desktop-computer-show-picture-id1356364268?b=1&k=20&m=1356364268&s=170667a&w=0&h=YibLOYYDkERhgK4BvRw3TzIlPYQAo4nbMnFA-5CvZ0k=",
-        "duration": "120m",
+        "duration": 30,
         "descripation": "i reading newspaper erverday"
     },
     {
         "id": 232305,
         "name": "Fishing",
         "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPLO7YOzKprOjeUHI0KN6HSTHC-TWGJRnZomwYtbq70g&s",
-        "duration": "120m",
+        "duration": 40,
         "descripation": "Some times in my routine i spend my time in Fishing "
     },
     {
         "id": 232306,
         "name": "Facebooking",
         "Image": "https://meredithswriting.files.wordpress.com/2014/04/facebook.jpg",
-        "duration": "120m",
+        "duration": 70,
         "descripation": "Most of the time in my routine i spend my time in facebooking"
     }
 ]
