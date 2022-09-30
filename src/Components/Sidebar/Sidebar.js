@@ -1,4 +1,4 @@
-import React from 'react';
+
 import myimg from './mypic.jpg'
 const Sidebar = ({ work }) => {
 
@@ -6,12 +6,14 @@ const Sidebar = ({ work }) => {
     for (const time of work) {
         totalTime = parseInt(totalTime + time.duration)
 
+
+
     }
     return (
         <div>
-            <h1 className='text-3xl pt-5'>Calculatin section for</h1>
-            <div className='profile bg-green-200 pl-3'>
-                <h2 className=' text-2xl font-bold text-red-200 py-4'>Profile Part</h2>
+            <h1 className='text-5xl py-5 mb-8 '>Calculatin section</h1>
+            <div className='profile bg-green-200 pt-4 mt-6'>
+                <h2 className=' text-4xl font-bold  py-4'>Profile Part</h2>
                 <div>
                     <div className="card w-full  shadow-xl">
                         <div className="flex gap-3">
@@ -38,24 +40,30 @@ const Sidebar = ({ work }) => {
             <div>
                 <h2 className='text-4xl mt-3'>Add A Break</h2>
                 <div className='w-full h-20 bg-zinc-400 mt-8 flex gap-6 justify-center align-middle'>
-                    <div className='bg-white w-12 h-10 text-black rounded-full mt-5 text-xl font-bold p-1 text-center'><h2>10m</h2></div>
-                    <div className='bg-white w-12 h-10 text-black rounded-full mt-5 text-xl font-bold p-1 text-center'><h2>15m</h2></div>
-                    <div className='bg-white w-12 h-10 text-black rounded-full mt-5 text-xl font-bold p-1 text-center'><h2>20m</h2></div>
-                    <div className='bg-white w-12 h-10 text-black rounded-full mt-5 text-xl font-bold p-1 text-center'><h2>25m</h2></div>
+                    <div className='bg-white w-12 h-10 text-black rounded-full mt-5 text-xl font-bold p-1 text-center'>
+                        <button>10m</button></div>
+                    <div className='bg-white w-12 h-10 text-black rounded-full mt-5 text-xl font-bold p-1 text-center'>
+                        <button>15m</button></div>
+                    <div className='bg-white w-12 h-10 text-black rounded-full mt-5 text-xl font-bold p-1 text-center'>
+                        <button>20m</button></div>
+                    <div className='bg-white w-12 h-10 text-black rounded-full mt-5 text-xl font-bold p-1 text-center'>
+                        <button>25m</button></div>
 
                 </div>
             </div>
 
-            <div className='h-60 bg-slate-200 pt-5 mt-5'>
+            <div className='h-60  pt-5 mt-5'>
                 <p className='text-4xl pt-3 text-black font-bold'>Working Details</p>
                 <div className=' mt-5'>
-                    <div className=' font-bold text-3xl'><h2>Working Time : {totalTime}
+                    <div className=' font-bold text-3xl h-20 bg-lime-300'><h2>Working Time :{totalTime}
                         Min.</h2></div>
-                    <div className='text-3xl font-bold'><h2>Breaking Time:</h2></div>
+                    <div className='h-20 text-3xl font-bold bg-lime-300 mt-5 pt-3'><h2>Breaking Time:</h2></div>
 
                 </div>
             </div>
-            {/* <p>Total Work:{work.length}</p> */}
+            <div>
+                <button className='bg-lime-300 h-20 w-full text-5xl py-4 mt-10 rounded-lg'>Activity Over</button>
+            </div>
         </div>
     );
 };
